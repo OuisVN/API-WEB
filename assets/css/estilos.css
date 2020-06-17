@@ -1,0 +1,24 @@
+.titulo{
+	background-color: #F15353;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.contenido{
+	background-color: #FFFFFF;
+	border: solid 1px #FFFFFF;
+	border-bottom: 3px solid #F15353;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.sombra{
+	-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+/* Bootstrap Error */
+.dataTables_wrapper .myfilter .dataTables_filter{ float: left; }
+.dataTables_wrapper .mylength .dataTables_length{ float: right; }
